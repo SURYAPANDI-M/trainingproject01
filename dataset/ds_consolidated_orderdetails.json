@@ -1,0 +1,25 @@
+{
+	"name": "ds_consolidated_orderdetails",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "trainingproject01_consolidatefolder",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "consolidated_orderdetails.csv",
+				"folderPath": "order",
+				"container": "consolidatedfolder"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

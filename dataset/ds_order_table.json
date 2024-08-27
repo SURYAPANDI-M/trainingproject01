@@ -1,0 +1,18 @@
+{
+	"name": "ds_order_table",
+	"properties": {
+		"description": "this will have the data in order table",
+		"linkedServiceName": {
+			"referenceName": "ls_orderdetails_table",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "raw",
+			"table": "order"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

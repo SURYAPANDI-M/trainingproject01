@@ -1,0 +1,25 @@
+{
+	"name": "ds_cosolidated_customerdetails",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "trainingproject01_consolidatefolder",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cosolidated_customerdetails.csv",
+				"folderPath": "customer",
+				"container": "consolidatedfolder"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

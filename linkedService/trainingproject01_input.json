@@ -1,0 +1,13 @@
+{
+	"name": "trainingproject01_input",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "this will link with adf-trainingproject01  the  blob storage ",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=trainingproject01;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDJCMkZGQkU1LTNENDYtNDE5Ny1CQkVDLTkzNEE0MTFERjU3Ml8zZWVjMmI1ZS1iNzU0LTQ2MGQtYTI1Ny04ODllYTljMzRkMDIiDQp9"
+		}
+	}
+}

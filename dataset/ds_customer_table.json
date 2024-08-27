@@ -1,0 +1,17 @@
+{
+	"name": "ds_customer_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_orderdetails_table",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "raw",
+			"table": "customers"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
