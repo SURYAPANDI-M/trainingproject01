@@ -5,6 +5,9 @@
 			"referenceName": "trainingproject01_input",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "question_1"
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {

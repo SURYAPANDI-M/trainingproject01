@@ -6,6 +6,9 @@
 			"referenceName": "ls_orderdetails_table",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "question_1"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
